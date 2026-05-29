@@ -1,0 +1,155 @@
+body{
+  margin:0;
+  font-family:'Inter', sans-serif;
+  background:#020617;
+  color:white;
+}
+
+.container{
+  display:flex;
+  height:100vh;
+}
+
+.left{
+  width:70%;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+}
+
+.right{
+  width:30%;
+  padding:25px;
+  background:#010409;
+  border-left:1px solid rgba(255,255,255,0.05);
+  overflow-y:auto;
+}
+
+.title{
+  font-size:28px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+.chatBox{
+  flex:1;
+  overflow-y:auto;
+  padding-right:10px;
+}
+
+.userMsg{
+  text-align:right;
+  margin:20px 0;
+}
+
+.userBubble{
+  display:inline-block;
+  background:#2563eb;
+  padding:14px;
+  border-radius:12px;
+  max-width:60%;
+}
+
+.aiCard{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding:18px;
+  border-radius:14px;
+  width:360px;
+  margin:15px 0;
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow:0 0 20px rgba(0,0,0,0.4);
+  transition:0.3s ease;
+}
+
+.aiCard:hover{
+  transform:translateY(-3px);
+}
+
+.riskText{
+  color:#ef4444;
+  font-weight:700;
+}
+
+.safeText{
+  color:#22c55e;
+  font-weight:700;
+}
+
+.confidence{
+  margin-top:8px;
+}
+
+.progressBar{
+  height:8px;
+  background:#334155;
+  margin-top:10px;
+  border-radius:10px;
+}
+
+.progressRisk{
+  height:100%;
+  background:#ef4444;
+  border-radius:10px;
+}
+
+.progressSafe{
+  height:100%;
+  background:#22c55e;
+  border-radius:10px;
+}
+
+.alertBox{
+  background:#7f1d1d;
+  padding:12px;
+  margin-top:12px;
+  border-radius:8px;
+}
+
+.inputArea{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+textarea{
+  flex:1;
+  background:#0f172a;
+  border:none;
+  color:white;
+  padding:14px;
+  border-radius:10px;
+}
+
+button{
+  border:none;
+  padding:12px 18px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.speakBtn{
+  background:#10b981;
+}
+
+.analyzeBtn{
+  background:#2563eb;
+}
+
+.typing{
+  margin-top:10px;
+  opacity:0.7;
+  font-style:italic;
+}
+
+.time{
+  font-size:12px;
+  opacity:0.6;
+  margin-top:5px;
+}
+
+.listening{
+  color:#22c55e;
+  margin-top:5px;
+}
