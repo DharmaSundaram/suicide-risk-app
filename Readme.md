@@ -212,9 +212,9 @@ This project supports the implementation and experimental evaluation presented i
 
 ## 👨‍💻 Author
 
-Dharma Sundaram
+Dharma S
 
-Bachelor of Technology (B.Tech)
+M.Tech integrated 
 
 Computer Science and Engineering
 
